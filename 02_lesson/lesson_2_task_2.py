@@ -5,6 +5,6 @@ def is_year_leap(year):
         return False
 
 
-num = int(input("Введите год: "))
+num = int("Введите год: ")
 result = is_year_leap(num) 
 print(f"Год високосный {num}? - {result}")
